@@ -1,0 +1,21 @@
+/* table{
+    border-collapse: collapse;
+    padding: 5px;
+    width: 50%;
+}
+td,th{
+    border: 2px solid #f30505;
+    padding: 10px;
+}
+tr:nth-child(even){ background-color: darkgrey;}
+tr:hover{background-color: aqua;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: rgb(175, 243, 4);
+}
+td{
+    color: #f904c8;
+} */

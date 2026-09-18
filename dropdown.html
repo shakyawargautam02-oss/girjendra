@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Dropdown Menu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: red;
+            display: flex;
+            padding: 10px;
+        }
+
+        /* Dropdown */
+        .dropdown {
+            position: relative;
+        }
+
+        /* Main menu item */
+        .dropbtn {
+            display: block;
+            color: white;
+            padding: 15px 25px;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover {
+            background-color: darkred;
+            border-radius: 12PX;
+        }
+
+        /* Dropdown menu */
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Dropdown items */
+        .dropdown-menu p {
+            padding: 12px 20px;
+            color: black;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .dropdown-menu p:hover {
+            background-color: black;
+            color: white;
+            border-radius: 12PX;
+        }
+
+        /* Show dropdown on hover */
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    .hero-section{
+        float: left;
+        padding: 5px;
+    }
+    .hero-section:hover{
+        transform: scale(1.1);
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <!-- Home -->
+        <div class="dropdown">
+            <div class="dropbtn">Home</div>
+
+            <div class="dropdown-menu">
+                <p>Menu</p>
+                <p>About</p>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <div class="dropdown">
+            <div class="dropbtn">Menu</div>
+
+            <div class="dropdown-menu">
+                <p>Sweets</p>
+                <p>Gift</p>
+                <p>Cake</p>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="dropdown">
+            <div class="dropbtn">About</div>
+
+            <div class="dropdown-menu">
+                <p>Gautam</p>
+                <p>BCA</p>
+                <p>Positive Mindset</p>
+            </div>
+            
+        </div>
+ <!-- contact us -->
+    
+   
+     <div class="dropdown">
+        <div class="dropbtn">contact </div>
+
+        <div class="dropdown-menu">
+
+            <p>phone no</p>
+            <p>about me </p>
+            <p>address</p>
+        </div>
+
+     </div>
+    </div>
+     <!-- navbar band --> <br>  
+      <div class="hero-section">
+        <img src="Picture/8c9b07e5f25b7776190bf9de4da60c47.jpg" alt="Banner Image" width="200px">
+    </div>
+     <div class="hero-section">
+        <img src="Picture/gentle-anime-smile-stockcake.jpg" alt="" width="200px">
+    </div>
+     
+     
+     
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .q{
+            position: relative;
+        }
+        .first{
+            border: 2px solid rgb(2, 2, 2);
+            background-color:none;
+            width: 150px;
+            height: 150px;
+            position:fixed;
+            z-index: 2;
+            font-size: 10PX;
+
+        }
+        .two{
+            border: 2px  solid;
+            background-color: red;
+            width: 70px;
+            height: 60px;
+            z-index: 3;
+            position: absolute;
+            margin-left:27px ;
+            margin-top:25px;
+            border-color:white;
+            font-size: 10PX;
+        }
+        .three{
+            border: 2px solid rgb(215, 252, 4);
+            background-color: rgb(8, 8, 8);
+            width: 70px;
+            height: 40px;
+            z-index: 1;
+            position: absolute;
+            color: red;
+            margin-top:75px ;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body> <div class="q">
+     <div class="first"> yellow box ( z index 1)</div>
+     <div class="two"> red box ( z index 2) </div>
+     <div class="three"> black box ( z index 3)</div>
+     </div>
+</body>
+</html>

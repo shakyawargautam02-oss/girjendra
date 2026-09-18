@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAUTAM SHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="logo">GAUTAM<span>
+<br>SHOP</span></div>
+<div class="search">
+<input type="text" id="searchBox" placeholder="Search products..."
+>
+<button onclick="searchProducts()">🔍</button></div>
+
+<nav>
+<button onclick="openLogin()">👤 Login</button>
+<button onclick="showWishlist()">❤️ Wishlist</button>
+<button onclick="openCart()">🛒 Cart <b id="cartCount">0</b></button>
+</nav>
+</header>
+
+<div class="categories">
+<button onclick="filterProducts('All')">All</button>
+
+<button onclick="filterProducts('Electronics')">Electronics</button>
+
+<button onclick="filterProducts('Fashion')">Fashion</button>
+
+<button onclick="filterProducts('Shoes')">Shoes</button>
+
+<button onclick="filterProducts('Accessories')">Accessories</button>
+</div>
+
+<section class="hero">
+<div>
+<small>MEGA SALE • UP TO 50% OFF</small>
+<h1>Shop Smart.<br> Live Better.</h1>
+ 
+<p>Discover amazing products at amazing prices.</p>
+
+<button class="shopBtn"       onclick="scrollToProducts()">
+ Shop Now →
+</button>
+</div>
+
+<div class="heroProduct">
+ 🛍️</div>  </section>
+
+<section class="features">
+
+<div>🚚
+<strong>Free Delivery</strong>
+<small>Orders over ₹999</small>
+</div>
+
+<div>🔒
+<strong>Secure Payment</strong>
+<small>100% secure</small>
+</div>
+
+<div>↩️
+<strong>Easy Returns</strong>
+<small>7 day returns</small>
+</div>
+
+<div>💬
+<strong>24/7 Support</strong>
+<small>We're here to help</small>
+</div>
+</section>
+
+<section class="productsSection" id="products">
+<div class="sectionTitle">
+<div>
+<small>OUR COLLECTION</small>
+<h2>Trending Products</h2>
+</div>
+
+<select id="sortProducts" onchange="sortProducts()">
+<option value="default">Featured
+</option>
+
+<option value="low">Price Low → High</option>
+
+<option value="high">Price High → Low</option>
+        
+<option value="rating">Top Rated</option>
+</select>
+</div>
+
+<div id="productsGrid" class="productsGrid"></div>
+</section>
+
+<footer>
+<div>
+<h2>GAUTAM <span>SHOP</span><br>7388657776</h2>
+<p>Your modern online          marketplace.</p>
+</div>
+
+<div>
+<h3><span>Shop</span></h3>
+<p>New Arrivals</p>
+<p>Best Sellers</p>
+<p>Deals</p>
+</div>
+
+<div>
+<h3><span>help</span></h3>
+<p>Contact Us</p>
+<p>Returns</p>
+<p>Shipping</p>
+</div>
+
+<div>
+<h3><span>company</span></h3>
+<p>About</p>
+<p>Privacy</p>
+<p>Careers</p>
+</div>
+</footer>
+
+<!-- CART -->
+<div class="overlay" id="cartOverlay">
+
+<div class="sidePanel">
+<div class="panelHeader">
+<h2>🛒 Your Cart</h2>
+<button onclick="closeCart()">✕</button>
+</div>
+
+<div id="cartItems"></div>
+<div class="cartBottom">
+<div class="total">
+<span>Total</span>
+<strong id="cartTotal">₹0
+</strong>
+</div>
+
+<button class="checkout"
+onclick="checkout()">
+Place Order</button></div>
+
+</div>
+</div>
+
+<!-- LOGIN -->
+<div class="modal" id="loginModal">
+<div class="modalBox">
+<button class="close"
+onclick="closeLogin()">✕
+</button>
+
+<div class="userIcon">👤</div>
+<h2>Welcome Back</h2>
+
+<input id="email" type="email"
+placeholder="Email">
+
+<input id="password"                          type="password"
+placeholder="Password">
+
+<button class="mainBtn"
+onclick="login()">Login</button>
+
+<p class="signupText">New user?
+<b onclick="signup()">Create Account</b></p>
+</div>
+</div>
+
+<!-- PRODUCT DETAILS -->
+<div class="modal" id="productModal">
+<div class="modalBox productDetails">
+<button class="close"
+onclick="closeProduct()">✕</button>
+<div id="productDetails"></div>
+</div>
+</div>
+
+<div id="toast"></div>
+<script src="script.js">
+</script>
+    
+</body>
+</html>

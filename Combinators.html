@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            background-color: red;
+            display:flex;
+        }
+
+        div > p{
+            background-color: red;
+        } 
+
+        div+p{
+            background-color: red;
+        } 
+        div ~ p{
+            background-color: red;
+        }
+    </style> 
+</head>
+<body>
+    <strong>1 (div p) matalb isme div ke andar bale paragraph me color hoga bahar nhi <br>
+            2 ( div)>p  
+    </strong>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, consequatur.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, suscipit!</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, impedit.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, consequatur.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, suscipit!</p>
+        
+
+    </div>
+    <div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+     not Child but Descendant 
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p> 
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+<div>
+    Paragraph 9. in the div</div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+    <p>Paragraph 1.</p>
+
+<div>
+  <p>Paragraph 2.</p>
+</div>
+
+<p>Paragraph 3.</p>
+<code>Some code.</code>
+<p>Paragraph 4.</p>
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+
+</body>
+</html>

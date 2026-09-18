@@ -1,0 +1,71 @@
+a:link{
+    color: rgb(68, 255, 0);
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: blue;
+}
+ div{
+    border: 2px solid red;
+    border-radius: 12px;
+    margin-right: 50%;
+    background-color: aqua;
+    margin: 50px;
+ }
+
+a:link{
+    color: yellowgreen;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:red;
+    text-decoration: dotted;
+    border: 2px solid black;
+}
+a:visited{
+    color: green;
+    background-color: rgb(238, 246, 5);
+    text-decoration:solid;
+    border: 2px solid black;
+}
+a:hover{
+    color: blue;
+    background-color: rgb(221, 29, 11);
+    text-decoration: overline;
+    font-size: 35px;
+}
+a:active{
+    color: red;
+    background-color: rgb(198, 7, 251);
+    text-decoration: wavy;
+} 
+
+a.one:link{
+    color: aqua;
+}
+a.one:hover:{
+    color: blueviolet;
+}
+a.visited:{
+    color: brown;
+}
+a:link, a:visited{
+    background-color: aqua;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:hover{
+    background-color: blue;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam Shop</title>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <div class="logo">
+            <h1>Gautam Shop</h1>
+        </div>
+
+        <!-- ================= NAVIGATION ================= -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+
+            <div>
+                <h2>Welcome to Gautam Shop</h2>
+
+                <p>
+                    Find the best products at affordable prices.
+                </p>
+
+                <button onclick="showMessage()">
+                    Shop Now
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+        <section id="products">
+
+            <h2>Our Products</h2>
+
+            <!-- Product 1 -->
+            <article class="product">
+
+                <img src="phone.jpg"
+                     alt="Smartphone"
+                     width="200">
+
+                <h3>Smartphone</h3>
+
+                <p>Powerful smartphone with a great camera.</p>
+
+                <strong>₹15,000</strong>
+
+                <br><br>
+
+                <button onclick="addToCart('Smartphone')">
+                    Add to Cart
+                </button>
+
+            </article>
+
+
+            <!-- Product 2 -->
+            <article class="product">
+
+                <img src="watch.jpg"
+                     alt="Smart Watch"
+                     width="200">
+
+                <h3>Smart Watch</h3>
+
+                <p>Modern smartwatch for everyday use.</p>
+
+                <strong>₹2,999</strong>
+
+                <br><br>
+
+                <button onclick="addToCart('Smart Watch')">
+                    Add to Cart
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about">
+
+            <h2>About Us</h2>
+
+            <p>
+                Gautam Shop is a simple e-commerce website
+                created for learning HTML, CSS and JavaScript.
+            </p>
+
+            <ul>
+                <li>Quality Products</li>
+                <li>Affordable Prices</li>
+                <li>Easy Shopping</li>
+            </ul>
+
+        </section>
+
+
+        <!-- ================= CONTACT FORM ================= -->
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <br><br>
+
+                <label for="message">Message:</label>
+
+                <textarea id="message"
+                          rows="5"
+                          placeholder="Write your message">
+                </textarea>
+
+                <br><br>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div>
+            <h3>Gautam Shop</h3>
+
+            <p>© 2026 Gautam Shop. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script>
+
+        function showMessage() {
+            alert("Welcome to Gautam Shop!");
+        }
+
+        function addToCart(product) {
+            alert(product + " added to cart!");
+        }
+
+    </script>
+
+</body>
+
+</html>

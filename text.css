@@ -1,0 +1,41 @@
+p{
+     color: red;
+    background-color: rgb(212, 234, 11);
+    text-align: start;
+    text-decoration-line:underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+    text-decoration-thickness:2px;
+    text-transform:uppercase; 
+    text-indent:100px;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    word-spacing: 5px;
+    white-space: normal;
+    text-shadow: 2px 2px 5px red;
+     vertical-align:text-bottom;
+} 
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+
+
+.key{
+      text-decoration-thickness:100px;
+}

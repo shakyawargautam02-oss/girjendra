@@ -1,0 +1,57 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: purple;
+}
+.hey{
+  
+  background-color: aqua;
+  text-align: right;
+  padding: 3px;
+  margin-top:10px;
+  
+}
+a{
+  text-decoration: none;
+  display: inline;
+  padding:2px;
+  background-color:aqua;
+  border-radius: 10px;
+  color: red;
+     
+}
+a:hover{
+  color:yellow;
+  background-color:red;
+}
+.h{
+  
+  margin-left:none;
+  text-align:center;
+  color:white;
+  background-color:gray;
+  padding:5px;
+  padding-left:60px;
+  padding-right:60px;
+  
+}
+.h:hover{
+  color:red;
+  background-color:black;
+}
+
+.clearfix::after{
+  clear: both
+}
+.ok{
+  float: left;
+  padding: 12px;
+  display: inline-black;
+  /*background-color:#777;*/
+  
+}
+.ok:hover{
+  transform: scale(1.2);
+  
+}

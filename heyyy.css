@@ -1,0 +1,53 @@
+/*ul {
+  list-style-image: url('Picture/stickman.gif');
+  list-style-type: square;  
+}
+
+ol {
+  background: salmon;
+  padding: 20px;
+}
+
+ol li {
+  background: mistyrose;
+  color: darkred;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+ul {
+  background: powderblue;
+  padding: 20px;
+}
+
+ul li {
+  background: mistyrose;
+  color: darkblue;
+  margin: 5px;
+}*/
+
+ul{
+    background-color: blueviolet;
+    padding: 20px;
+    list-style-position:inside;
+    list-style-image:  url(Picture/stickman.gif);
+    list-style-type: square;
+}
+ ul li{
+    background:mistyrose;
+    color: blue;
+    padding: 15px;
+    margin: 10px;
+}
+ol{
+    background-color: chocolate;
+    padding: 35px;
+    list-style-position: inside;
+
+}
+ol li {
+    background-color: cyan;
+    color: rgb(27, 2, 253);
+    padding: 10px;
+    margin:10px ;
+}

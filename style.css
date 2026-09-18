@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: purple;
+}
+
+.h {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+
+.h:hover {
+    color: red;
+    background-color: white;
+}
+
+
+
+.hey {
+    background-color: aqua;
+    text-align: right;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+    background-color: red;
+}
+
+
+
+
+.menu {
+    display: inline-block;
+    position: relative;
+}
+
+summary {
+    display: inline-block;
+    padding: 5px;
+    background-color: aqua;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+summary:hover {
+    color: yellow;
+    background-color: red;
+}
+
+.menu-options {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    /*background-color: white;*/
+    width: 100px;
+    padding: 5px;
+    z-index: 10;
+    
+}
+
+.menu-options a {
+    display: block;
+    /*background-color: white;*/
+    color: red;
+    margin: 3px;
+}
+
+.menu-options a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ok {
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+}
+
+.ok:hover {
+    transform: scale(1.2);
+    background-color: gray;
+    border-radius: 12px;
+    border-width: 3px;
+    border-color:red;
+}
+
+
+/* Sections */ 
+#about{
+    margin-top: 100px;
+    border:2px solid red;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color:#777;
+}
+.out{
+    color:rgba(255,40,15,100.8);
+    font-size: 20px;
+    
+}
+.ab{
+    color:white;
+}
+footer {
+    border:2px solid red;
+    background: #151827;
+    color: red;
+    padding: 50px 7%;
+
+    display:block;
+    gap: 30px;
+}
+
+footer p {
+    color:white;
+    margin-top: 8px;
+}
+.hk{
+    text-align: center;
+    margin-top:100px;
+    padding-bottom:none: 
+}
+.spa{
+    float: right;
+    
+}
