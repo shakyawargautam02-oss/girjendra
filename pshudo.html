@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .v{
+            border: 2px solid red;
+            
+            display: inline-block;
+            
+        }
+        .v:hover{
+            background-color: aqua;
+            display: inline-block;
+            padding: 10px;
+
+
+        }
+        p:first-child{
+            color: red;
+        }
+         p:last-child{
+            color:blue;
+         }
+         p:first-child em {
+            color: black;
+         }
+         p:last-child em{
+            color: black;
+         }
+         p::first-letter{
+            color: chartreuse;
+            font-size: 25px;
+         }
+         p::before{
+            content: url(stickman.gif);
+         }
+         ::selection{
+            color: red;
+            background-color: yellow;
+         }
+    </style>
+</head>
+<body>
+    <div class="v">
+        <p class="h">radhe radhe </p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, <em> amet consectetur adipisicing</em> elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit, <em> amet consectetur adipisicing</em> elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum <em>dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsumem <em> dolor sit amet consectetur</em> adipisicing elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor <em> sit amet consectetur adipisicing</em> elit. Maxime, iure?</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, suscipit?</p>
+        <p>Lorem ipsum dolor sit <em> amet consectetur adipisicing</em> elit. Maxime, iure?</p>
+    </div>
+    <div>
+</body>
+</html>
