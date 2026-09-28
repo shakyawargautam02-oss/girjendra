@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.gallery{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: flex-start;
+        }
+        div.gallery-item{
+            margin: 5px;
+            border: 3px solid black;
+            width: 180px;
+        }
+        div.gallery-item:hover{
+            border: 2px solid red;
+            background-color: #777;
+        }
+        div.gallery-item img {
+            height: auto;
+            width: 100%;
+        }
+        div.gallery-item div.desc{
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> image gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Picture/cho.jpg" alt="" width="600" height="400">
+            <div class="desc"> dairy milk</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Picture/fav.jpg" alt="" width="600" height="400">
+            <div class="desc">choclate</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Picture/favv.jpg" alt="" width="600" height="400">
+            <div class="desc"> choclate</div> 
+        </div>
+        <div class="gallery-item">
+            <img src="Picture/Satoru_Gojo_29 (1).webp" alt="" width="600" height="400">
+            <div class="desc"> Satoru Gojo</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Picture/shw.jpg" alt="" width="600" height="400">
+            <div class="desc">dairy milk</div>
+        </div>
+
+    </div>
+</body>
+</html>

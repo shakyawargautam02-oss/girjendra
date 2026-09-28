@@ -3,10 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <link rel="stylesheet" href="IMAGE.CSS">
+    <title>Document</title>
+    <style>
+
+        .gallery{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .gallery-item{
+            border: 2px solid #777;
+            width: 20%;
+            height: auto;
+        }
+
+    </style>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus consequuntur vel earum natus temporibus laborum maxime asperiores similique odio, velit perspiciatis modi reprehenderit saepe nihil repellat aperiam placeat, voluptates laudantium ratione. Sunt dolores veniam corporis quidem, nam minus quibusdam dolor eos explicabo nulla dolore, magnam at fuga in aperiam ab!</p>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Picture/cake.png" alt="" width="400" height="600">
+            <div class="desc"> cake</div>
+        </div>
+    
+     <div class="gallery">
+        <div class="gallery-item">
+            <img src="Picture/cho.jpg" alt="">
+            <div class="desc">choclate</div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Picture/fab.jpg" alt="">
+                <div class="desc">choclate</div>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>

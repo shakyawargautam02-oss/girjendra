@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline;
+            background-color: #ff0000;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            /* background-color: #ffffff; */
+            min-width: 120px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 0;
+            margin: 0;
+            z-index: 1;
+        }
+
+        .dropdown-content li {
+            list-style: none;
+            padding: 8px 12px;
+            color: #333;
+        }
+
+        .dropdown-content li:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="dropdown">
+            Menu
+            <ul class="dropdown-content">
+                <li>Home</li>
+                <li>Insert</li>
+                <li>Delete</li>
+                <li>End</li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            Link
+            <ul class="dropdown-content">
+                <li>1 Link</li>
+                <li>2 Link</li>
+                <li>3 Link</li>
+                <li>4 Link</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis unde quas quis alias minus, quidem officiis, voluptatibus ullam cupiditate doloremque laboriosam iure architecto ratione deserunt asperiores animi nemo cumque cum!</p>
+
+</body>
+</html>
