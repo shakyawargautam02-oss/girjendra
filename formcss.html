@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: #777;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 40%;
+    }
+    select{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    input[type=submit] {
+        margin-left: 45px;
+        color: red;
+        background-color: green;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    input[type=submit]:hover{
+        border: 2px solid black;
+    }
+
+</style>
+<body>
+    <form action="">
+        <label for="fname">first name</label><br>
+        <input type="text" placeholder=" your name..."><br>
+        <label for="lname">last name</label><br>
+        <input type="text" placeholder="your last name..."><br>
+        <label for="">country</label><br>
+        <select name="country" id="country">
+            <option value="country">india</option>
+            <option value="country">usa</option>
+            <option value="country">london</option>
+            <option value="country">brazil</option>
+            <option value="country">thailand</option>
+        </select><br><br>
+        <input class="submit" type="submit" value="submit">
+
+    </form>
+</body>
+</html>
